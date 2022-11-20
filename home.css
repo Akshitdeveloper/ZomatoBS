@@ -1,0 +1,188 @@
+body {
+  /* height: 400%;*/
+  margin: auto;
+  background-color: rgb(232, 196, 231);
+}
+a {
+  text-decoration: none;
+}
+
+/*header css*/
+/*header {
+  height: 60px;
+
+  background-color: #3b2362;
+  color: white;
+}*/
+
+button {
+  height: 33px;
+  width: 83px;
+  background-color: white;
+  color: #3b2362;
+}
+
+#icon > button {
+  margin: 5px;
+}
+
+#login {
+  background-color: green;
+}
+#signup {
+  background-color: skyblue;
+}
+
+#icon {
+  float: left;
+  display: flex;
+}
+#icon > h1 {
+  margin: 5px;
+}
+#social {
+  float: right;
+  margin-top: 12px;
+  margin-right: 3%;
+}
+
+/*search css*/
+#search {
+  height: 400px;
+
+  background-image: url(https://raw.githubusercontent.com/Aakashdeveloper/edu_intern_sep_22/master/css/homepage/images/foodWallpaper.png);
+  background-repeat: no-repeat;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 3%;
+  position: absolute;
+  -webkit-transition: -webkit-transform 1s;
+}
+
+#logo:hover {
+  -webkit-transform: rotate(360deg) translateZ(0);
+}
+
+#logo > span {
+  font-size: 80px;
+  margin-left: 10%;
+  margin-top: 10%;
+  position: absolute;
+}
+#heading {
+  font-size: 50px;
+  margin-left: 27%;
+  margin-top: 15%;
+  position: absolute;
+  color: white;
+}
+.dropdown {
+  height: 53px;
+  width: 57%;
+  margin-left: 25%;
+  margin-top: 21%;
+  position: absolute;
+}
+select {
+  height: 53px;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+}
+.restselect {
+  width: 59%;
+}
+
+/*quicksearch css*/
+
+#quicksearch {
+  /*height: 600px;*/
+  /*border: 5px solid green;*/
+  width: 80%;
+  margin-left: 10%;
+
+  margin-top: 2%;
+}
+#quickheading {
+  font-size: 30px;
+  display: block;
+  color: #3b2362;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 2%;
+}
+
+#quicksubheading {
+  font-size: 20px;
+  display: block;
+  color: gray;
+  line-height: 2;
+  margin-left: 2%;
+}
+.tilecontainer {
+  width: 30%;
+  height: 180px;
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 3%;
+  box-shadow: 10px 20px 5px grey;
+}
+
+.tilecontainer:hover {
+  transform: scale(1.1);
+}
+
+.tilecomp1 {
+  width: 50%;
+  float: left;
+}
+
+.tilecomp2 {
+  width: 45%;
+  float: left;
+  margin-left: 4%;
+  margin-top: 15%;
+}
+
+.tilecomp1 > img {
+  width: 100%;
+  height: 100%;
+}
+.compheading {
+  color: #3b2362;
+  font-size: 25px;
+}
+.compsubheading {
+  color: grey;
+  font-size: 20px;
+}
+/*footer css*/
+footer {
+  /*height: 100px;*/
+  margin-top: 3%;
+  background-color: #3b2632;
+  color: white;
+  text-align: center;
+}
+#footext {
+  font-size: 31px;
+}
+.footdiv {
+  height: 70px;
+  width: 33%;
+  display: inline-block;
+  border-right: 1px solid white;
+}
+.noborder {
+  border: none;
+}
+.socialicon {
+  height: 50px;
+  width: 50px;
+  display: inline;
+}
